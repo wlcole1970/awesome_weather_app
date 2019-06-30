@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CSS link -->
+
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>Awesome Weather App</title>
+</head>
+
+<body onload="JavaScript:timedRefresh(900000);">
+
+    <div class="location">
+        <h1 class='location-timezone'>Timezone</h1>
+        <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+    <div class="temperature-section">
+        <div class="degree-section">
+            <h2 class="temperature-degree">34</h2>
+            <span>F</span>
+        </div>
+        <div class="temperature-description">Its friggin hot
+
+        </div>
+
+    </div>
+    <script src="./img/skycons-master/skycons.js"></script>
+    <script src="./JS/app.js"></script>
+
+</body>
+
+</html>
